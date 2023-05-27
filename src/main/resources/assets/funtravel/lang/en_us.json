@@ -1,5 +1,14 @@
 {
   "item.funtravel.traversium": "Traversium",
   "item.funtravel.raw_traversium": "Raw Traversium",
+
+
+  "block.funtravel.traversium_block": "Block of Traversium",
+  "block.funtravel.traversium_ore": "Traversium Ore",
+  "block.funtravel.deepslate_traversium_ore": "Deepslate Traversium Ore",
+
+
+
+
   "itemGroup.funtraveltab": "Fun Travel Tab"
 }
