@@ -30,12 +30,22 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> TRAVERSIUM_ORE = registerBlock("traversium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).explosionResistance(100).requiresCorrectToolForDrops(), UniformInt.of(3, 5)),
+                    .strength(5f).explosionResistance(100).requiresCorrectToolForDrops(), UniformInt.of(3, 5)),
             ModCreativeModeTab.FUNTRAVEL_TAB);
 
     public static final RegistryObject<Block> DEEPSLATE_TRAVERSIUM_ORE = registerBlock("deepslate_traversium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).explosionResistance(100).requiresCorrectToolForDrops(), UniformInt.of(3, 5)),
+                    .strength(9f).explosionResistance(100).requiresCorrectToolForDrops(), UniformInt.of(3, 5)),
+            ModCreativeModeTab.FUNTRAVEL_TAB);
+
+    public static final RegistryObject<Block> ENDSTONE_TRAVERSIUM_ORE = registerBlock("endstone_traversium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f).explosionResistance(100).requiresCorrectToolForDrops(), UniformInt.of(3, 5)),
+            ModCreativeModeTab.FUNTRAVEL_TAB);
+
+    public static final RegistryObject<Block> NETHERRACK_TRAVERSIUM_ORE = registerBlock("netherrack_traversium_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).explosionResistance(100).requiresCorrectToolForDrops(), UniformInt.of(3, 5)),
             ModCreativeModeTab.FUNTRAVEL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
