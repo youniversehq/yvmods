@@ -16,7 +16,7 @@ public class ModItems {
 
     // Mod items below
     public static final RegistryObject<Item> TRAVERSIUM = ITEMS.register("traversium",
-            () -> new Item(new Item.Properties().stacksTo(64).tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FUNTRAVEL_TAB)));
 
     public static final RegistryObject<Item> RAW_TRAVERSIUM = ITEMS.register("raw_traversium",
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FUNTRAVEL_TAB)));
