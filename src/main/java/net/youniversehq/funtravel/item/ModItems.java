@@ -8,7 +8,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.youniversehq.funtravel.FunTravel;
 
-import java.security.cert.Certificate;
 
 public class ModItems {
 
@@ -18,6 +17,7 @@ public class ModItems {
     // Mod items below
     public static final RegistryObject<Item> TRAVERSIUM = ITEMS.register("traversium",
             () -> new Item(new Item.Properties().stacksTo(64).tab(CreativeModeTab.TAB_MISC)));
+
 
 
     // Register items onto the ModEventBus
