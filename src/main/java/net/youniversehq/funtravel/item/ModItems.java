@@ -15,11 +15,15 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, FunTravel.MOD_ID);
 
     // Mod items below
-    public static final RegistryObject<Item> TRAVERSIUM = ITEMS.register("traversium",
-            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FUNTRAVEL_TAB)));
 
     public static final RegistryObject<Item> RAW_TRAVERSIUM = ITEMS.register("raw_traversium",
             () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FUNTRAVEL_TAB)));
+
+
+    public static final RegistryObject<Item> TRAVERSIUM = ITEMS.register("traversium",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FUNTRAVEL_TAB)));
+
+
 
 
 
