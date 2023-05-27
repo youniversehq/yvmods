@@ -1,4 +1,5 @@
 {
   "item.funtravel.traversium": "Traversium",
-  "item.funtravel.raw_traversium": "Raw Traversium"
+  "item.funtravel.raw_traversium": "Raw Traversium",
+  "itemGroup.funtraveltab": "Fun Travel Tab"
 }

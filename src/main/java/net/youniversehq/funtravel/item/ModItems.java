@@ -19,7 +19,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(64).tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> RAW_TRAVERSIUM = ITEMS.register("raw_traversium",
-            () -> new Item(new Item.Properties().stacksTo(64).tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().stacksTo(64).tab(ModCreativeModeTab.FUNTRAVEL_TAB)));
 
 
 
