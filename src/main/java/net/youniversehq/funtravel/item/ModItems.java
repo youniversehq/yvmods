@@ -18,6 +18,11 @@ public class ModItems {
     public static final RegistryObject<Item> TRAVERSIUM = ITEMS.register("traversium",
             () -> new Item(new Item.Properties().stacksTo(64).tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> RAW_TRAVERSIUM = ITEMS.register("raw_traversium",
+            () -> new Item(new Item.Properties().stacksTo(64).tab(CreativeModeTab.TAB_MISC)));
+
+
+
 
 
     // Register items onto the ModEventBus
